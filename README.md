@@ -19,46 +19,55 @@ The light dependent resistor automatically switches the three LEDs on when it de
 The three LEDs are automatically switched off when the light dependent resistor detects high light intensities.
 The three resistors ensure that the circuit is safe and excess current does not flow through it.
 # Connections:
+
 Motor wires and motor driver:
-     -The two red wires of the two motors on the right to output-3 of the motor driver.
-     -The two black wires of the two motors on the right to output-4 of the motor driver.
-     -The two black wires of the two motors on the left should to output-1 of the motor driver.
-     -The two red wires of the two motors on the left should to output-2 of the motor driver.
+The two red wires of the two motors on the right to output-3 of the motor driver.
+The two black wires of the two motors on the right to output-4 of the motor driver.
+The two black wires of the two motors on the left should to output-1 of the motor driver.
+The two red wires of the two motors on the left should to output-2 of the motor driver.
+
 Motor driver and ESP32: 
-     -IN1 to GPIO14.
-     -IN2 to GPIO27.
-     -IN3 to GPIO26.
-     -IN4 to GPIO25.
-     -ENA to GPIO33.
-     -ENB to GPIO32.
-     -5V terminal to 5V pin.
-     -GND terminal to GND pin.
+IN1 to GPIO14.
+IN2 to GPIO27.
+IN3 to GPIO26.
+IN4 to GPIO25.
+ENA to GPIO33.
+ENB to GPIO32.
+5V terminal to 5V pin.
+GND terminal to GND pin.
+
 Ultrasonic sensor and ESP32:
-     -VCC to 5V.
-     -TRIG to GPIO4.
-     -ECHO to GPIO5.
-     -GND terminal to GND pin.
+VCC to 5V.
+TRIG to GPIO4.
+ECHO to GPIO5.
+GND terminal to GND pin.
+
 Servo motor and ESP32:
-     -Yellow wire to GPIO13.
-     -Red wire to 5V pin.
-     -Brown wire to GND.
+Yellow wire to GPIO13.
+Red wire to 5V pin.
+Brown wire to GND.
+
 Battery holder and motor driver:
-     -positive wire to 12V IN.
-     -negative wire to GND.
+positive wire to 12V IN.
+negative wire to GND.
+
 Buzzer and ESP32:
-     -positive terminal to D23.
-     -negative terminal to GND.
+positive terminal to D23.
+negative terminal to GND.
+
 Buttons and ESP32:
-     -Button-1 to GPIO12 and GND.
-     -Button-2 to GPIO13 and GND.
-     -Button-3 to GPIO14 and GND. 
+Button-1 to GPIO12 and GND.
+Button-2 to GPIO13 and GND.
+Button-3 to GPIO14 and GND. 
+
 LEDs and ESP32:
-     -LED-1 to GPIO25.
-     -LED-2 to GPIO26.
-     -LED-3 to GPIO27.
+LED-1 to GPIO25.
+LED-2 to GPIO26.
+LED-3 to GPIO27.
+
 LDR and ESP32:
-     -one end of LDR to 3V.
-     -opposite end of LDR to GND.
+one end of LDR to 3V.
+opposite end of LDR to GND.
      
 # Why it follows all the rules:
 
