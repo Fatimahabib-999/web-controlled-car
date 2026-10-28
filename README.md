@@ -10,13 +10,15 @@ Fatima Habib Muzaffar
 
 Aria Iman 
 
+Individual contributions:
 
+3D model designing: Aria Iman
 
+Wiring and robot assembly: Fatima Habib Muzaffar
 
+Code: Fatima Habib Muzaffar
 
-
-
-
+GitHub repository: Aria Iman 
 
 #List of components:
 
