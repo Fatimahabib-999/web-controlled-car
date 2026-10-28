@@ -1,16 +1,16 @@
 # web-controlled-car
 
-Team name:
+# Team name:
 
 PHNX
 
-Team members: 
+# Team members: 
 
 Fatima Habib Muzaffar
 
 Aria Iman 
 
-Individual contributions:
+# Individual contributions:
 
 3D model designing: Aria Iman
 
@@ -20,7 +20,7 @@ Code: Fatima Habib Muzaffar
 
 GitHub repository: Aria Iman 
 
-#List of components:
+# List of components:
 
 Four 3V DC motors, 
 two battery holders for two batteries each,
@@ -122,6 +122,33 @@ LED-3 to GPIO21.
 LDR and ESP32:
 one end of LDR to GPIO34.
 opposite end of LDR to GND.
+
+# Setup instructions:
+
+Attach the motors to the chassis using double sided tape or screws and bolts.
+
+Attach the wheels to the motors.
+
+Place the motor driver next to the motors and make the appropriate connections.
+
+Attach the upper chassis to the lower chassis using screws and bolts.
+
+Place the remaining components on top of the upper chassis and make the appropriate connections. 
+
+Copy the code to Platformio extension or arduino IDE and upload it to the esp32.
+
+Connect your device to the esp32's wifi network and enter the IP address in the web browser.
+
+# Motor justification:
+
+Servo motor: The servo Motor Micro SG90 allows continuous 360 degree rotation which enables the sonar mounted on top of it to detect obstacles at several different directions. The motor's speed and direction can be easily adjusted since it operates with PWM control. It also operates at 5V external power supply which can easily be provided by batteries or microcontrollers. 
+
+DC motors: The 6V 100 RPM DC Gear BO Motors operate at 6V, making them ideal for this project. They can easily be powered by batteries. Their speed can be controlled since they can operate with PWM control. They are also lightweight and easy to install using screws and bolts. 
+
+# Project demonstration: 
+
+
+
      
 # Why it follows all the rules:
 
