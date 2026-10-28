@@ -1,5 +1,19 @@
 # web-controlled-car
 
+Team name:
+PHNX
+Team members: 
+Fatima Habib Muzaffar
+Aria Iman 
+
+
+
+
+
+
+
+
+
 #List of components:
 
 Four 3V DC motors, 
@@ -123,6 +137,7 @@ Embedded system+IOT:
 Rules and bans:
 1. This project does not contain any sharp objects/weapons.
 2. The power source has a maximum voltage of 7.4 V.
+
 
 
 
